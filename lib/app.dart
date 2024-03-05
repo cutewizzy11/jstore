@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:jstore/features/authentication/screens/onboarding.dart';
+import 'package:jstore/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:jstore/utils/theme/theme.dart';
 
 ///------class to setup themes, initialize binding and any animations

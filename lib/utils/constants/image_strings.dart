@@ -12,6 +12,6 @@ class JImages {
   //Onboarding Images
   static const String onBoardingImage1 = "assets/images/on_boarding_images/lets-buys.gif";
   static const String onBoardingImage2 = "assets/images/on_boarding_images/let-pay.gif";
-  static const String onBoardingImage3 = "assets/images/on_boarding_images/lets-deliver.gif";
+  static const String onBoardingImage3 = "assets/images/on_boarding_images/let-deliver.gif";
 
 }
