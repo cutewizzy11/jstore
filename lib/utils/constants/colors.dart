@@ -8,17 +8,6 @@ class FColors {
   static const Color secondary = Color(0xfffc6edb);
   static const Color accent = Color(0xfff6e1e1);
 
-  // Gradient Colors
-  static const Gradient linearGradient = LinearGradient(
-      begin: Alignment(0.0, 0.0),
-      end: Alignment(0.507, -0.507),
-      colors: [
-      Color(0xff8b009b),
-      Color(0xffc403cb),
-      Color(0xfff101ff),
-      ],
-  );
-
   //Text colors
   static const Color textPrimary = Color(0xff333626);
   static const Color textSecondary = Color(0xff657275);

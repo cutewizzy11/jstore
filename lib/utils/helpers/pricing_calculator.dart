@@ -1,5 +1,5 @@
 
-class FPricingCalculator {
+class JPricingCalculator {
 
   /// --- Calculate price based on tax and shipping
   static double calculateTotalPrice(double productPrice, String location) {

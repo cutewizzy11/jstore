@@ -14,4 +14,9 @@ class JImages {
   static const String onBoardingImage2 = "assets/images/on_boarding_images/let-pay.gif";
   static const String onBoardingImage3 = "assets/images/on_boarding_images/let-deliver.gif";
 
+  //Animation Images
+  static const String animationImage1 = "assets/images/animations/instagram-stories.gif";
+  static const String animationImage2 = "assets/images/animations/ok.gif";
+  static const String animationImage3 = "assets/images/animations/delivered-email.gif";
+
 }
