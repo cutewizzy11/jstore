@@ -33,12 +33,12 @@ class JTermsAndConditionCheckbox extends StatelessWidget {
                       .bodyMedium!
                       .apply(
                     color: dark
-                        ? FColors.white
-                        : FColors.primary,
+                        ? JColors.white
+                        : JColors.primary,
                     decoration: TextDecoration.underline,
                     decorationColor: dark
-                        ? FColors.white
-                        : FColors.primary,
+                        ? JColors.white
+                        : JColors.primary,
                   )),
               TextSpan(
                   text: '${JTexts.and} ',
@@ -50,12 +50,12 @@ class JTermsAndConditionCheckbox extends StatelessWidget {
                       .bodyMedium!
                       .apply(
                     color: dark
-                        ? FColors.white
-                        : FColors.primary,
+                        ? JColors.white
+                        : JColors.primary,
                     decoration: TextDecoration.underline,
                     decorationColor: dark
-                        ? FColors.white
-                        : FColors.primary,
+                        ? JColors.white
+                        : JColors.primary,
                   )),
             ],
           ),

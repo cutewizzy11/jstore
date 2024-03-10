@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:jstore/features/authentication/screens/password_configuration/forgot_password.dart';
 import 'package:jstore/features/authentication/screens/signup/signup.dart';
+import 'package:jstore/navigation_menu.dart';
 
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
@@ -63,7 +64,7 @@ class JLoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => const NavigationMenu()),
                     child: const Text(JTexts.signInButtonText))),
             const SizedBox(height: JSizes.spaceBtwItems),
 

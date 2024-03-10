@@ -16,7 +16,7 @@ class JSocialButtons extends StatelessWidget {
       children: [
         Container(
           decoration: BoxDecoration(
-              border: Border.all(color: FColors.grey),
+              border: Border.all(color: JColors.grey),
               borderRadius: BorderRadius.circular(100)),
           child: IconButton(
             onPressed: () {},
@@ -30,7 +30,7 @@ class JSocialButtons extends StatelessWidget {
         const SizedBox(width: JSizes.spaceBtwItems),
         Container(
           decoration: BoxDecoration(
-              border: Border.all(color: FColors.grey),
+              border: Border.all(color: JColors.grey),
               borderRadius: BorderRadius.circular(100)),
           child: IconButton(
             onPressed: () {},

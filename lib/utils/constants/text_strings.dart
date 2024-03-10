@@ -3,7 +3,9 @@ class JTexts {
 
   // -- Global texts
   static const String appName = "J-Stores";
+  static const String customerTitle = "Customer";
   static const String welcomeMessage = "Welcome to $appName!";
+  static const String welcomeSubMessage = "$customerTitle Paul!";
   static const String errorOccurred = "An error occurred. Please try again later.";
   static const String and = "and";
   static const String skip = "skip";

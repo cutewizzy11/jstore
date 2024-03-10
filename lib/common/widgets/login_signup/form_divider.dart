@@ -16,14 +16,14 @@ class JFormDivider extends StatelessWidget {
       children: [
         Flexible(
             child: Divider(
-                color: dark ? FColors.darkGrey : FColors.grey,
+                color: dark ? JColors.darkGrey : JColors.grey,
                 thickness: 0.5,
                 indent: 60,
                 endIndent: 5)),
         Text(dividerText, style: Theme.of(context).textTheme.labelMedium),
         Flexible(
             child: Divider(
-                color: dark ? FColors.darkGrey : FColors.grey,
+                color: dark ? JColors.darkGrey : JColors.grey,
                 thickness: 0.5,
                 indent: 5,
                 endIndent: 60)),

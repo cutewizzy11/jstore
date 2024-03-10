@@ -14,7 +14,7 @@ class OnBoardingNextButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Positioned(
       left: JSizes.defaultSpace,
-      bottom: FDeviceUtils.getBottomNavigationBarHeight(),
+      bottom: JDeviceUtils.getBottomNavigationBarHeight(),
       child: ElevatedButton(
         onPressed: () => OnBoardingController.instance.nextPage(),
         style: ElevatedButton.styleFrom(shape: const CircleBorder()),
